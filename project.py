@@ -91,7 +91,7 @@ def monthly_sales():
     plt.plot(months, y_data_profits, '-o', c='#008000')
 
     plt.tight_layout()
-    plt.savefig('../PythonDataAnalysisProject/salesgraphs.png', dpi=300)
+    plt.savefig('../CFG_Python_Data_Analysis_Project/salesgraphs.png', dpi=300)
 
     max_sale_value = max(sales)
     max_sale_index = sales.index(max_sale_value)
